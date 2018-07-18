@@ -9,10 +9,10 @@ import (
 	"math/rand"
 )
 
-func main() {
-	endpoint := "https://*/internships/2018"
-	token := "token"
+const endpoint = "https://internships/2018"
+const token = "token"
 
+func main() {
 	fmt.Println("start")
 	hbService := hb.HitBlowService{
 		Base: 10,
